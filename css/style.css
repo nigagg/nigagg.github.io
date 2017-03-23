@@ -1,25 +1,45 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
 table {
-    border-collapse: collapse;
-    border: 2px solid black;
-    border-spacing: 4px;
+ border-collapse: collapse;
+ 
 }
-
 td {
-    padding: 5px;
-    padding-right: 30px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
-
 th {
-    padding: 10px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
-
-caption {
-    margin-bottom: 10px;
-    font-size: 18px;
+.row-3 {
+    background-color: lightyellow;
 }
-
-.pink {
-    background-color: pink;
+.row-5 {
+    background-color: lightyellow;
+}
+.col1 {
+    background-color: darkcyan;
+    color: white;
+    text-align: left;
+}
+.col2 {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+.col3 {
+    background-color: darkcyan;
+    color: white;
+    text-align: right;
+}
+.column-2 {
+    text-align: center;
+}
+.column-3 {
+    text-align: right;
 }
